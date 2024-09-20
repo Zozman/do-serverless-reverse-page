@@ -8,6 +8,7 @@ function main() {
             <html>
                 <head>
                     <title>${process.env.SITE_TITLE}</title>
+                    <link rel="icon" type="image/x-icon" href="${process.env.SITE_URL}/favicon.ico" />
                     <style>
                         html, body, iframe {
                             margin: 0;
