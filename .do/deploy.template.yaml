@@ -1,0 +1,18 @@
+spec:
+  alerts:
+  - rule: DEPLOYMENT_FAILED
+  - rule: DOMAIN_FAILED
+  functions:
+  - github:
+      branch: master
+      repo: Zozman/do-serverless-reverse-page
+    name: do-serverless-reverse-page
+    envs:
+    - key: SITE_URL
+      scope: RUN_TIME
+    - key: SITE_TITLE
+      scope: RUN_TIME
+    routes:
+    - path: /
+    source_dir: /
+  name: do-serverless-reverse-page
