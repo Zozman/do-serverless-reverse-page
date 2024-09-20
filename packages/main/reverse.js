@@ -16,6 +16,7 @@ function main() {
                             height: 100%; 
                         }
                         iframe {
+                            border: 0;
                             transform: scaleX(-1);
                         }
                     </style>
