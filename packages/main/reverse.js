@@ -16,7 +16,7 @@ function main() {
                             height: 100%; 
                         }
                         iframe {
-                            transform: rotate(90deg) scaleX(-1);
+                            transform: scaleX(-1);
                         }
                     </style>
                 </head>
